@@ -17,6 +17,7 @@ color:rgba(255, 107, 107,0.7);
     border-radius: 20px;
     justify-content: center;
     background-image: url("forom.webp");
+     background-size: cover ;
    transition:1s;
 
 }
