@@ -1,0 +1,53 @@
+#main{
+    font-size:20px;
+    height:401px;
+    width:450px;
+    border:2px solid rgb(5, 7, 117);
+    position:relative;
+    top:150px;
+    left: 500px;
+    border-radius: 20px;
+    background-image:url("forom.webp");
+    background-size:cover;
+    transition:1.5s;
+}
+#container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+a{
+    position:relative;
+    left:190px;
+    top:0px;
+    text-decoration: none;
+    color:rgba(254, 93, 38,0.7);
+    border:2px solid rgba(254, 93, 38,0.7);
+    border-radius:10px;
+    padding:4px;
+     box-shadow: 2px 2px 10px black;
+}
+body{
+  color: rgba(254, 93, 38,0.7);
+    background-image:url( "ff.jpg");
+        background-size:cover;
+}
+#container input{
+    background-color:rgba(162, 159, 158, 0.4);
+    color:rgb(13, 13, 13);
+    border-radius:10px;
+    height:25px;
+}
+#container input:hover{
+    box-shadow: 2px 2px 10px black;
+}
+a:hover{
+    color:rgb(67, 63, 20);
+    transform: scale(1.2);
+    border:2px solid rgb(67, 63, 20);
+    
+}
+#main:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px black;
+}
